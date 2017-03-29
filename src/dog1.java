@@ -11,7 +11,7 @@ public class dog1 extends javax.swing.JFrame {
     private Time time;//ประกาศเวลา
     private boolean stop;//หยุด
     private Object obj;//ประกาศobj
-
+    private int y;
     public dog1() { 
         initComponents();
         obj = new Object();
@@ -84,7 +84,6 @@ public class dog1 extends javax.swing.JFrame {
                     sleep(10000); //คนถูกขัดจังหวะเลย เข้าแคส 
                 } catch (InterruptedException ex) {
                     Logger.getLogger(dog1.class.getName()).log(Level.SEVERE, null, ex);
-                    
                     
                 }
             }
